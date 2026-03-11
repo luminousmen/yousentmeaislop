@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>You Sent Me AI Slop</title>
+  <meta name="description" content="Someone shared this with you because what you sent them was AI-generated content passed off as your own thinking." />
+  <meta property="og:title" content="You Sent Me AI Slop" />
+  <meta property="og:description" content="Someone shared this with you because what you sent them was AI-generated content passed off as your own thinking." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="You Sent Me AI Slop" />
+  <meta name="twitter:description" content="Someone shared this with you because what you sent them was AI-generated content passed off as your own thinking." />
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #0a0a0a;
+      --text: #e8e8e8;
+      --muted: #888;
+      --accent: #e53e3e;
+      --divider: #222;
+    }
+
+    html {
+      font-size: 18px;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      line-height: 1.75;
+      padding: 4rem 1.5rem 6rem;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 3rem;
+      border-bottom: 1px solid var(--divider);
+      padding-bottom: 2rem;
+    }
+
+    h1 {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+    }
+
+    .lede {
+      font-size: 1.05rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .arguments {
+      margin: 2.5rem 0;
+    }
+
+    .argument {
+      margin-bottom: 2rem;
+    }
+
+    .argument strong {
+      color: #fff;
+      font-style: normal;
+      display: block;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--divider);
+      margin: 2.5rem 0;
+    }
+
+    .closer {
+      color: #bbb;
+    }
+
+    .closer p + p {
+      margin-top: 1.25rem;
+    }
+
+    .punchline {
+      margin-top: 2.5rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: #fff;
+      letter-spacing: 0.01em;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--divider);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    footer a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid var(--divider);
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    footer a:hover {
+      color: var(--text);
+      border-color: var(--muted);
+    }
+
+    button#copy {
+      background: none;
+      border: 1px solid var(--divider);
+      color: var(--muted);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.8rem;
+      padding: 0.35rem 0.85rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    button#copy:hover {
+      color: var(--text);
+      border-color: var(--muted);
+    }
+
+    button#copy.copied {
+      color: #48bb78;
+      border-color: #48bb78;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>You Sent Me AI Slop</h1>
+    <p class="lede">Someone shared this with you because what you sent them was AI-generated content passed off as your own thinking. Here's why that's a problem.</p>
+  </header>
+
+  <div class="arguments">
+
+    <div class="argument">
+      <strong>I can tell.</strong>
+      AI writing has a signature. Verbose, confident, content-free. Five paragraphs where one sentence would do. Fake structure — three bullet points saying the same thing with different nouns. "It's worth noting that." "In order to ensure." Sections that look thorough and contain nothing. The moment I push back with a clarifying question and you either go quiet or send more AI paragraphs, I know you didn't write this. You prompted it.
+    </div>
+
+    <div class="argument">
+      <strong>You wasted my time.</strong>
+      The value of human communication is distillation. You've spent time with this problem. You know the context, the constraints, the dead ends. When you write something yourself, you give me your concentrated signal — I skip the journey you already took. When you outsource the writing without doing the thinking, I get a Wikipedia article on the general topic. Now I have to do the thinking anyway. On top of reading your document. Time I'm not getting back.
+    </div>
+
+    <div class="argument">
+      <strong>You added nothing.</strong>
+      I work with LLMs every day. I write prompts. I know how to get structured output from a model. If your contribution to this discussion is copy-pasting ChatGPT's take on the problem, you're a proxy. An expensive, slow, unreliable proxy. I'd rather talk to the model directly — at least it answers follow-up questions coherently.
+    </div>
+
+    <div class="argument">
+      <strong>You don't own what you sent.</strong>
+      When you write something, you can defend it. You can explain the reasoning, adapt it when requirements change, push back when someone misunderstands. When you generate it, you can't do any of that. You'll just generate again. The document exists but nobody actually thought it. And when decisions get made based on it, the problems you didn't think through become everyone else's problem to fix.
+    </div>
+
+    <div class="argument">
+      <strong>Saying nothing would have been better.</strong>
+      A blank document at least doesn't pretend to contain decisions. A generated document creates the illusion of thought without the substance. It gets approved because it looks thorough. It gets implemented. And then it falls apart in ways that a five-minute actual conversation would have caught.
+    </div>
+
+  </div>
+
+  <hr />
+
+  <div class="closer">
+    <p>This isn't about using AI. Use it. It's a good tool. Write faster, draft quicker, check your logic. But do the thinking first. The AI can help you communicate what you actually think — it cannot think for you. If you haven't done the thinking, don't publish the output.</p>
+    <p>What people want from you is your distillation. Your experience with this specific problem. The decision you made and why. The thing you know that others don't. No model can generate that, because no model has lived your context.</p>
+    <p class="punchline">Think first. Then write. AI helps with the second part.</p>
+  </div>
+
+  <footer>
+    <span>by <a href="https://luminousmen.com" target="_blank" rel="noopener">luminousmen</a></span>
+    <button id="copy">Copy link</button>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('copy');
+    btn.addEventListener('click', () => {
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        btn.textContent = 'Copied';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = 'Copy link';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    });
+  </script>
+
+</body>
+</html>
