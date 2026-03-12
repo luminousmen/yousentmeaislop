@@ -1,4 +1,4 @@
 # yousentmeaislop
 
-Visit at: [yousentmeaislop.com](https://yousentmeaislop.com/]
+Visit at: [yousentmeaislop.com](https://yousentmeaislop.com/)
 
