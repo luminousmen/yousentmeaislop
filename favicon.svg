@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Robot head -->
+  <rect x="6" y="14" width="52" height="44" rx="10" fill="#1a1a1a" stroke="#444" stroke-width="1.5"/>
+
+  <!-- Antenna stem -->
+  <rect x="30" y="7" width="4" height="9" rx="1" fill="#555"/>
+  <!-- Antenna ball (crimson) -->
+  <circle cx="32" cy="6" r="5" fill="#e53e3e"/>
+
+  <!-- Side bolts -->
+  <circle cx="6" cy="30" r="3.5" fill="#2a2a2a" stroke="#555" stroke-width="1.2"/>
+  <circle cx="58" cy="30" r="3.5" fill="#2a2a2a" stroke="#555" stroke-width="1.2"/>
+
+  <!-- Face screen -->
+  <rect x="11" y="19" width="42" height="34" rx="5" fill="#0d0d0d"/>
+
+  <!-- Eyes (glowing crimson) -->
+  <rect x="15" y="23" width="12" height="8" rx="2.5" fill="#e53e3e"/>
+  <rect x="37" y="23" width="12" height="8" rx="2.5" fill="#e53e3e"/>
+  <!-- Eye glint -->
+  <rect x="15" y="23" width="5" height="2.5" rx="1" fill="#ff9090" opacity="0.5"/>
+  <rect x="37" y="23" width="5" height="2.5" rx="1" fill="#ff9090" opacity="0.5"/>
+
+  <!-- Poop emoji as mouth — rendered via system emoji font -->
+  <text x="32" y="50" text-anchor="middle" font-size="20"
+        font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif">💩</text>
+</svg>
